@@ -1,6 +1,10 @@
-Exposing a problem in Composer single-package update
+Exposing a problem in Composer single-package update in case a conflicting dependency is found.
 
 ## Steps to reproduce
+
+All the `--dry-run` flags are intentional, showing behavior without modifying the filesystem.
+
+Initialize dependencies with
 
 ```
 composer update
@@ -23,6 +27,14 @@ also won't update the package.
 ```
 composer update --dry-run drupal/core symfony/config --with-dependencies
 ```
+
+A blanket
+
+```
+composer update --dry-run
+```
+
+will update the package, but on a real project it may have a lot of side-effects in updating other unrelated packages.
 
 ## Potential reason
 
