@@ -1,0 +1,12 @@
+{
+    "name": "giorgio/drupal-core-tests",
+    "require": {
+        "drupal/core": "8.4.6"
+    },
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "g.sironi@elifesciences.org"
+        }
+    ]
+}
