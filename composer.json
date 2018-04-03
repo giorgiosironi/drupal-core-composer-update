@@ -1,5 +1,5 @@
 {
-    "name": "giorgio/drupal-core-tests",
+    "name": "giorgiosironi/drupal-core-composer-update",
     "require": {
         "drupal/core": "8.4.6",
         "drupal/console": "^1.0.2"
