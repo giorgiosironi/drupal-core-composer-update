@@ -1,7 +1,8 @@
 {
     "name": "giorgio/drupal-core-tests",
     "require": {
-        "drupal/core": "8.4.6"
+        "drupal/core": "8.4.6",
+        "drupal/console": "^1.0.2"
     },
     "authors": [
         {
